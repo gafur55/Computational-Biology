@@ -1,0 +1,339 @@
+=========================================================================================
+Part 1
+=========================================================================================
+
+
+
+
+Homo sapiens vs Pan troglodytes:
+
+    mismatch number:  0
+    match number:  105
+    number of indels:  0
+    (565, 'MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGIIWGEDTLMEYLENPKKYIPGTKMIFVGIKKKEERADLIAYLKKATNE', 'MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGIIWGEDTLMEYLENPKKYIPGTKMIFVGIKKKEERADLIAYLKKATNE')
+
+
+Homo sapiens vs Gallus gallus:
+    mismatch number:  65
+    match number:  57
+    number of indels:  17
+    (220, 'MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKG-----II--WGEDTLMEYLENPKKY--IPGTKMIF-VGIKKKE-ERADLIAYL-K-KAT-N-E--', 'MGDIEKGKKIFVQKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAEGFSYTDANKNKGKCKAAFLSHWWFLVIVRSTETCRKQNNMNDQKQMYSFHFEVTACFFSCFFFYLFSCQVSLGVRIL')
+
+
+Homo sapiens vs Danio rerio:
+    mismatch number:  17
+    match number:  88
+    number of indels:  1
+    (480, 'MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGIIWGEDTLMEYLENPKKYIPGTKMIFVGIKKKEERADLIAYLKKATNE', 'MGDVEKGKKVFVQKCAQCHTVENGGKHKVGPNLWGLFGRKTGQAEGFSYTDANKSKGIVWGEDTLMEYLENPKKYIPGTKMIFAGIKKKGERADLIAYLKSATS-')
+
+
+Homo sapiens vs Saccharomyces cerevisiae:
+    mismatch number:  43
+    match number:  67
+    number of indels:  6
+    (347, 'M-----GDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGIIWGEDTLMEYLENPKKYIPGTKMIFVGIKKKEERADLIAYLKKATNE', 'MTEFKAGSAKKGATLFKTRCLQCHTVEKGGPHKVGPNLHGIFGRHSGQAEGYSYTDANIKKNVLWDENNMSEYLTNPKKYIPGTKMAFGGLKKEKDRNDLITYLKKAC-E')
+
+
+Pan troglodytes vs Gallus Gallus:
+    mismatch number:  65
+    match number:  57
+    number of indels:  17
+    (220, 'MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKG-----II--WGEDTLMEYLENPKKY--IPGTKMIF-VGIKKKE-ERADLIAYL-K-KAT-N-E--', 'MGDIEKGKKIFVQKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAEGFSYTDANKNKGKCKAAFLSHWWFLVIVRSTETCRKQNNMNDQKQMYSFHFEVTACFFSCFFFYLFSCQVSLGVRIL')
+
+
+Pan troglodytes vs Danio rerio:
+    mismatch number:  17
+    match number:  88
+    number of indels:  1
+    (480, 'MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGIIWGEDTLMEYLENPKKYIPGTKMIFVGIKKKEERADLIAYLKKATNE', 'MGDVEKGKKVFVQKCAQCHTVENGGKHKVGPNLWGLFGRKTGQAEGFSYTDANKSKGIVWGEDTLMEYLENPKKYIPGTKMIFAGIKKKGERADLIAYLKSATS-')
+
+
+Pan troglodytes vs Saccharomyces cerevisiae:
+    mismatch number:  43
+    match number:  67
+    number of indels:  6
+    (347, 'M-----GDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGIIWGEDTLMEYLENPKKYIPGTKMIFVGIKKKEERADLIAYLKKATNE', 'MTEFKAGSAKKGATLFKTRCLQCHTVEKGGPHKVGPNLHGIFGRHSGQAEGYSYTDANIKKNVLWDENNMSEYLTNPKKYIPGTKMAFGGLKKEKDRNDLITYLKKAC-E')
+
+
+Gallus gallus vs Danio rerio:
+    mismatch number:  64
+    match number:  58
+    number of indels:  18
+    (214, 'MGDIEKGKKIFVQKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAEGFSYTDANKNKGKCKAAFLSHWWFLVIVRSTETCRKQNNMNDQKQMYSFHFEVTACFFSCFFFYLFSCQVSLGVRIL', 'MGDVEKGKKVFVQKCAQCHTVENGGKHKVGPNLWGLFGRKTGQAEGFSYTDANKSKG-----IV--WGEDTLMEYLENPKKY--IPGTKMIFA-GIKKKG-ERADLIAYLKSA-TS------')
+
+
+Gallus Gallus vs Saccharomyces cerevisiae:
+    mismatch number:  79
+    match number:  48
+    number of indels:  23
+    (112, 'MGDIEKG--KK---IFVQKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAEGFSYTDANKNKGKCKAAFLSHWWFLVIVRSTETCRKQNNMNDQKQMYSFHFEVTACFFSCFFFYLFSCQVSLGVRIL', 'MTEFKAGSAKKGATLFKTRCLQCHTVEKGGPHKVGPNLHGIFGRHSGQAEGYSYTDAN-IK-K-N-V-L---WDENNMSEYLTNPKK-YIPGTK-M-AFGGLKKEKDRNDLITYL-K-K-A--CE--')
+
+
+Danio rerio vs Saccharomyces cerevisiae:
+    mismatch number:  44
+    match number:  65
+    number of indels:  5
+    (341, 'M-----GDVEKGKKVFVQKCAQCHTVENGGKHKVGPNLWGLFGRKTGQAEGFSYTDANKSKGIVWGEDTLMEYLENPKKYIPGTKMIFAGIKKKGERADLIAYLKSATS', 'MTEFKAGSAKKGATLFKTRCLQCHTVEKGGPHKVGPNLHGIFGRHSGQAEGYSYTDANIKKNVLWDENNMSEYLTNPKKYIPGTKMAFGGLKKEKDRNDLITYLKKACE')
+
+
+
+Question 4:
+    In this study, pairwise global sequence alignments were performed on cytochrome c protein sequences from five species: Homo sapiens, Pan troglodytes, Gallus gallus, Danio rerio, and Saccharomyces cerevisiae. 
+    The results showed that Homo sapiens and Pan troglodytes are the most closely related species, with a perfect alignment: 105 matches, zero mismatches, zero indels, and the highest alignment score of 565. 
+    This indicates a complete conservation of the cytochrome c sequence between the two species, reflecting their recent divergence from a common ancestor.
+    Danio rerio (zebrafish) also showed relatively high similarity to both humans and chimpanzees, with 88 matches, 17 mismatches, and only one indel. This moderate alignment score of 480 suggests a more distant but still significant evolutionary relationship. 
+    On the other hand, the yeast Saccharomyces cerevisiae had a lower degree of similarity when compared to humans, chimpanzees, and zebrafish, with around 67 matches and 6 indels in each case, reflecting its divergence from the animal kingdom much earlier in evolutionary history.
+    The least related species pair was Gallus gallus (chicken) and Saccharomyces cerevisiae (yeast), which shared only 48 matches and had the highest number of mismatches (79) and indels (23), resulting in the lowest alignment score of 112. 
+    This data indicates a very distant evolutionary relationship between these two organisms, likely due to the large evolutionary gap between vertebrates and fungi.
+
+Question 5:
+    The common names of the species analyzed are as follows: Homo sapiens (human), Pan troglodytes (chimpanzee), Gallus gallus (chicken), Danio rerio (zebrafish), and Saccharomyces cerevisiae (baker's yeast). These names and their known evolutionary relationships confirm the results obtained in Question 4.
+    Humans and chimpanzees are both primates and share a very recent common ancestor, so their complete sequence identity in cytochrome c is expected. Zebrafish and chickens are both vertebrates, but they belong to different evolutionary branches (fish vs. birds), which explains their lower similarity scores when compared to humans or chimpanzees. Yeast, being a single-celled fungus, is the most distantly related organism in this group, which aligns with its consistently lower alignment scores and greater sequence divergence.
+    Nothing particularly surprising was observed in the data. However, it is worth noting that cytochrome c remains highly conserved even in distantly related species like yeast and vertebrates. This underscores the essential and conserved role of cytochrome c in cellular respiration across all eukaryotic life forms.
+
+
+
+=========================================================================================
+Part 2
+=========================================================================================
+
+
+Homo sapiens vs Pan troglodytes
+    length of the alignment:  105
+    mismatch number:  0
+    match number:  105
+    number of indels:  0
+    (565, 'MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGIIWGEDTLMEYLENPKKYIPGTKMIFVGIKKKEERADLIAYLKKATNE', 'MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGIIWGEDTLMEYLENPKKYIPGTKMIFVGIKKKEERADLIAYLKKATNE')
+
+Homo sapiens vs Gallus gallus
+    length of the alignment:  57
+    mismatch number:  6
+    match number:  51
+    number of indels:  0
+    (290, 'MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKG', 'MGDIEKGKKIFVQKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAEGFSYTDANKNKG')
+
+Homo sapiens vs Danio rerio
+    length of the alignment:  104
+    mismatch number:  16
+    match number:  88
+    number of indels:  0
+    (485, 'MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGIIWGEDTLMEYLENPKKYIPGTKMIFVGIKKKEERADLIAYLKKATN', 'MGDVEKGKKVFVQKCAQCHTVENGGKHKVGPNLWGLFGRKTGQAEGFSYTDANKSKGIVWGEDTLMEYLENPKKYIPGTKMIFAGIKKKGERADLIAYLKSATS')
+
+Homo sapiens vs Saccharomyces cerevisiae
+    length of the alignment:  101
+    mismatch number:  36
+    match number:  65
+    number of indels:  0
+    (368, 'GDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGIIWGEDTLMEYLENPKKYIPGTKMIFVGIKKKEERADLIAYLKKA', 'GSAKKGATLFKTRCLQCHTVEKGGPHKVGPNLHGIFGRHSGQAEGYSYTDANIKKNVLWDENNMSEYLTNPKKYIPGTKMAFGGLKKEKDRNDLITYLKKA')
+
+Pan troglodytes vs Gallus gallus
+    length of the alignment:  57
+    mismatch number:  6
+    match number:  51
+    number of indels:  0
+    (290, 'MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKG', 'MGDIEKGKKIFVQKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAEGFSYTDANKNKG')
+
+Pan troglodytes vs Danio rerio
+    length of the alignment:  104
+    mismatch number:  16
+    match number:  88
+    number of indels:  0
+    (485, 'MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGIIWGEDTLMEYLENPKKYIPGTKMIFVGIKKKEERADLIAYLKKATN', 'MGDVEKGKKVFVQKCAQCHTVENGGKHKVGPNLWGLFGRKTGQAEGFSYTDANKSKGIVWGEDTLMEYLENPKKYIPGTKMIFAGIKKKGERADLIAYLKSATS')
+
+Pan troglodytes vs Saccharomyces cerevisiae
+    length of the alignment:  101
+    mismatch number:  36
+    match number:  65
+    number of indels:  0
+    (368, 'GDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGIIWGEDTLMEYLENPKKYIPGTKMIFVGIKKKEERADLIAYLKKA', 'GSAKKGATLFKTRCLQCHTVEKGGPHKVGPNLHGIFGRHSGQAEGYSYTDANIKKNVLWDENNMSEYLTNPKKYIPGTKMAFGGLKKEKDRNDLITYLKKA')
+
+Gallus gallus vs Danio rerio
+    length of the alignment:  57
+    mismatch number:  7
+    match number:  50
+    number of indels:  0
+    (284, 'MGDIEKGKKIFVQKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAEGFSYTDANKNKG', 'MGDVEKGKKVFVQKCAQCHTVENGGKHKVGPNLWGLFGRKTGQAEGFSYTDANKSKG')
+
+Gallus gallus vs Saccharomyces cerevisiae
+    length of the alignment:  55
+    mismatch number:  18
+    match number:  37
+    number of indels:  0
+    (213, 'GDIEKGKKIFVQKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAEGFSYTDANKNK', 'GSAKKGATLFKTRCLQCHTVEKGGPHKVGPNLHGIFGRHSGQAEGYSYTDANIKK')
+
+Danio rerio vs Saccharomyces cerevisiae
+    length of the alignment:  101
+    mismatch number:  37
+    match number:  64
+    number of indels:  0
+    (362, 'GDVEKGKKVFVQKCAQCHTVENGGKHKVGPNLWGLFGRKTGQAEGFSYTDANKSKGIVWGEDTLMEYLENPKKYIPGTKMIFAGIKKKGERADLIAYLKSA', 'GSAKKGATLFKTRCLQCHTVEKGGPHKVGPNLHGIFGRHSGQAEGYSYTDANIKKNVLWDENNMSEYLTNPKKYIPGTKMAFGGLKKEKDRNDLITYLKKA')
+
+
+
+
+Question 3:
+
+A long local alignment generally indicates that the two species are more closely related, especially if the alignment also contains a high number of matches and few mismatches or indels. Local alignment finds the highest-scoring matching regions between two sequences, so a longer alignment suggests that a large portion of the sequences are evolutionarily conserved. Closely related species will typically have more extensive regions of similarity due to fewer mutations and less evolutionary divergence over time.
+In contrast, distantly related species tend to have shorter alignments or alignments with more mismatches and indels because their protein sequences have diverged more significantly. Thus, the length and quality of a local alignment provide strong evidence for evolutionary relatedness.
+
+Question 4:
+
+Based on the local alignment results, Homo sapiens and Pan troglodytes are clearly the most closely related. Their local alignment spans the full length of the protein (105 amino acids) with 0 mismatches and 0 indels, confirming a high degree of conservation.
+Following them, Danio rerio (zebrafish) shows relatively high similarity to both humans and chimpanzees, with long alignments (~104 aa) and a moderate number of mismatches (~16), indicating a more distant, but still substantial evolutionary relationship.
+Gallus gallus (chicken) shows moderate similarity to both primates and zebrafish, with shorter alignments (~57 aa) and more mismatches (6–7). The least related species is Saccharomyces cerevisiae (yeast), which consistently shows lower match counts and higher mismatch numbers across all comparisons, and in some cases shorter alignments (~55–101 aa), indicating the most significant evolutionary divergence.
+These observations match well with the results in Part 1, where global alignments also indicated humans and chimpanzees as the closest relatives and yeast as the most distant. Both local and global alignment methods support the same evolutionary relationships among these species.
+
+Question 5:
+
+The most highly conserved region among all five species appears to be the N-terminal region of the protein, especially the sequence:
+MGDVEKGKKIFVQKCAQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKG
+
+This segment consistently appears in most alignments, including those involving more distantly related species like Gallus gallus and Danio rerio, with a high number of matches and relatively few mismatches. This suggests that this region plays a critical functional role in the cytochrome c protein and has been preserved throughout evolution.
+
+
+=========================================================================================
+Part 3
+=========================================================================================
+
+
+
+Homo sapiens:
+
+    mismatch number:  3
+    match number:  54
+    number of indels:  0
+    (51, 'MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKG', 'MGDVEKGKKIFVQKCAQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKG')
+
+Pan troglodytes:
+
+    mismatch number:  3
+    match number:  54
+    number of indels:  0
+    (51, 'MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKG', 'MGDVEKGKKIFVQKCAQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKG')
+
+Gallus Gallus:
+
+    mismatch number:  5
+    match number:  52
+    number of indels:  0
+    (47, 'MGDIEKGKKIFVQKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAEGFSYTDANKNKG', 'MGDVEKGKKIFVQKCAQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKG')
+
+
+Danie Rerio:
+
+    mismatch number:  8
+    match number:  49
+    number of indels:  0
+    (41, 'MGDVEKGKKVFVQKCAQCHTVENGGKHKVGPNLWGLFGRKTGQAEGFSYTDANKSKG', 'MGDVEKGKKIFVQKCAQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKG')
+
+
+Saccharomyces cerevisiae:
+
+    mismatch number:  21
+    match number:  37
+    number of indels:  3
+    (16, 'AGSAKKGATLFKTRCLQCHTVEKGGPHKVGPNLHGIFGRHSGQAEGYSYTDANIK-K-', 'MGDVEKGKKIFVQKCAQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAAN-KNKG')
+
+
+Question 3 :
+Based on the fitting alignment results, Homo sapiens and Pan troglodytes remain the most closely related species. They both achieved the highest alignment score (51), with 54 matches, 3 mismatches, and no indels, indicating that the conserved human segment aligns nearly perfectly within the full sequence of the chimpanzee.
+
+Gallus gallus (chicken) shows moderate similarity, with 52 matches, 5 mismatches, and a score of 47. This places it slightly below the primates in terms of evolutionary closeness, consistent with vertebrate divergence.
+
+Danio rerio (zebrafish) had a lower score of 41, with 49 matches and 8 mismatches, suggesting further evolutionary distance from humans compared to chickens.
+The most distantly related species is again Saccharomyces cerevisiae (yeast), with only 37 matches, 21 mismatches, and 3 indels, resulting in the lowest score of 16. The presence of indels here is notable and reflects significant divergence in sequence structure and content.
+These results are consistent with the findings from Parts 1 and 2. Across global, local, and now fitting alignments, the evolutionary hierarchy remains the same: humans and chimpanzees are the most closely related, followed by chicken, then zebrafish, and finally yeast as the most distant.
+
+
+Question 4:
+Each alignment method—global, local, and fitting—offers distinct advantages depending on the biological context.
+
+Global alignment is ideal for comparing full-length sequences that are similar in length and closely related. It provides a complete picture of overall similarity but can be misleading for distantly related species due to divergent regions that lower the alignment quality.
+
+Local alignment focuses on finding the most conserved regions within two sequences. It is useful for detecting shared motifs or domains, especially when sequences are only partially similar. However, it ignores the rest of the sequence and doesn't show broader relationships.
+
+Fitting alignment is used to align a known conserved region within a larger sequence. It's excellent for evaluating functional conservation but doesn't assess the full sequence context.
+
+In summary, global alignment is best for closely related full sequences, fitting alignment is ideal for testing specific conserved regions, and local alignment is most helpful when searching for unknown similarities within otherwise dissimilar proteins.
+
+
+
+
+=========================================================================================
+Part 4
+=========================================================================================
+
+
+
+
+Scoring Scheme a: Indel=-5, Mismatch=-1, Match=1
+
+Suffix of seq1 vs Prefix of seq2:
+  Score: 0
+  Alignment Length: 0
+  Matches: 0
+  Mismatches: 0
+  Indels: 0
+
+Suffix of seq2 vs Prefix of seq1:
+  Score: 1
+  Alignment Length: 1
+  Matches: 1
+  Mismatches: 0
+  Indels: 0
+
+Scoring Scheme b: Indel=-1, Mismatch=-5, Match=1
+
+Suffix of seq1 vs Prefix of seq2:
+  Score: 2
+  Alignment Length: 4
+  Matches: 3
+  Mismatches: 0
+  Indels: 1
+
+Suffix of seq2 vs Prefix of seq1:
+  Score: 2
+  Alignment Length: 6
+  Matches: 4
+  Mismatches: 0
+  Indels: 2
+
+Scoring Scheme c: Indel=-1, Mismatch=-1, Match=5
+
+Suffix of seq1 vs Prefix of seq2:
+  Score: 27
+  Alignment Length: 9
+  Matches: 6
+  Mismatches: 1
+  Indels: 2
+
+Suffix of seq2 vs Prefix of seq1:
+  Score: 23
+  Alignment Length: 10
+  Matches: 6
+  Mismatches: 1
+  Indels: 3
+
+
+
+Question 3:
+The results of the overlap alignment varied noticeably depending on the scoring scheme used. In Scoring Scheme (a), where indels carried a heavy penalty (-5) and matches were only slightly rewarded (+1), the alignments were extremely short or even absent. This reflects the algorithm’s reluctance to introduce gaps, favoring only near-perfect or perfect alignments.
+
+In Scoring Scheme (b), the mismatch penalty was high (-5), but the indel penalty was much lower (-1). As a result, the alignments were slightly longer than in scheme (a), and the algorithm introduced more indels to avoid mismatches. Although the match reward remained low, the more flexible gap handling allowed better alignment extension.
+
+Scoring Scheme (c), which rewarded matches with a high score (+5) and penalized mismatches and indels equally but modestly (-1), produced the longest and highest-scoring alignments. The algorithm was more permissive, tolerating mismatches or gaps when there were enough matches to outweigh those penalties. This resulted in alignments that were significantly more extensive and informative.
+
+Question 4:
+
+The longest overlaps occurred in Scoring Scheme (c), with alignment lengths of 9 and 10. This is because the strong reward for matches encouraged the algorithm to extend the alignment as far as possible, even when some mismatches or gaps were present.
+
+The shortest overlaps appeared in Scoring Scheme (a). One alignment had a length of zero, and the other was only one character long. The high indel penalty in this scheme made it unfavorable to include any gaps, and with only a modest reward for matches, the alignment was extremely limited unless a perfect match existed.
+
+Question 5:
+
+Changing the scoring parameters affects how the algorithm makes decisions about extending or terminating an alignment. A high indel penalty (as in Scheme a) discourages the insertion of gaps, limiting alignment to only the most exact sequence matches. A high mismatch penalty (Scheme b) pushes the algorithm to insert gaps rather than accept mismatched characters. In contrast, a high match score (Scheme c) allows the algorithm to accept small penalties for mismatches or gaps if it results in a higher overall reward through a longer series of matches.
+
+These scoring preferences fundamentally shift how the overlap is calculated. When matches are strongly rewarded, alignments grow longer. When penalties dominate, alignments become shorter and more selective. This is why different scoring schemes can produce dramatically different results, even when using the same sequences.
+
+
+    

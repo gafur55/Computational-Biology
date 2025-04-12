@@ -1,0 +1,61 @@
+PART 1:
+
+ba9a:
+    time - gafur@gafur-HP-Spectre-x360-Convertible-13-ap0xxx:~/Documents/computational_biology/hw5$ python ba9a.py chrY_subset.fa 
+            Execution time: 0.0235 seconds
+    size:
+        39 kilobytes
+
+ba9g:
+    time - Execution time: 0.0375 seconds
+    size - 49 kilobytes
+        gafur@gafur-HP-Spectre-x360-Convertible-13-ap0xxx:~/Documents/computational_biology/hw5$ ls -lh suffix_array_output.txt 
+        -rw-rw-r-- 1 gafur gafur 46K Apr 11 20:18 suffix_array_output.txt
+
+ba9i:
+    time:
+        gafur@gafur-HP-Spectre-x360-Convertible-13-ap0xxx:~/Documents/computational_biology/hw5$ python ba9i.py chrY_subset.fa 
+        BWT result saved to 'bwt_output.txt'
+        Execution time: 0.0595 seconds
+    size:
+        gafur@gafur-HP-Spectre-x360-Convertible-13-ap0xxx:~/Documents/computational_biology/hw5$ ls -lh bwt_output.txt 
+        -rw-rw-r-- 1 gafur gafur 7.9K Apr 11 20:26 bwt_output.txt
+
+4) When comparing the efficiency of the three approaches—ba9a, ba9g, and ba9i—in terms of both time and memory, several distinct differences emerge, each with its own set of advantages and trade-offs.
+The time efficiency of these approaches varies significantly. ba9a, which constructs a trie, is the fastest, completing the task in just 0.0235 seconds. This is likely due to the simplicity of the trie construction process, which doesn’t involve complex sorting or data manipulations. On the other hand, ba9g, which builds a suffix array, takes slightly longer, with an execution time of 0.0375 seconds. The additional time is expected since constructing a suffix array involves sorting suffixes, which adds a layer of computational complexity. ba9i, which calculates the Burrows-Wheeler Transform (BWT), is the slowest of the three, requiring 0.0595 seconds. This approach’s additional time is attributed to the necessity of first creating a suffix array and then performing further transformations.
+In terms of memory efficiency, the output size offers a clear indication of how much space each approach consumes. ba9i stands out as the most memory-efficient, producing the smallest output at just 7.9 KB. This is typical for the Burrows-Wheeler Transform, which compresses data effectively. ba9a, which uses a trie structure, generates a moderate-sized output of 39 KB. While this is larger than the BWT output, it remains manageable and reflects the storage required for the trie’s nodes and edges. ba9g generates the largest output at 46 KB. This larger file size can be attributed to the need to store indices within the suffix array, which inherently requires more memory.
+In conclusion, the choice between these approaches depends on the specific needs of the task. If execution speed is the primary concern, ba9a is the clear winner. If memory usage is a priority, then ba9i provides the most compact and efficient output. For situations where suffix arrays are necessary, ba9g is the most appropriate, although it comes at the cost of both time and memory efficiency. Each approach has its place, depending on whether speed, space, or specific data structures are most important for the task at hand.
+
+
+PART2:
+    Length of the original sequence: 7920
+    Length of the RLE representation: 4434  
+
+    2. Compression Effectiveness
+    From the given results, we can deduce that the compression was effective. The length of the RLE representation (4434) is significantly smaller than the length of the original sequence (7920). This indicates that the sequence contains a considerable amount of repetition, which RLE was able to compress efficiently.
+    RLE is particularly effective when there are long stretches of repeated characters. The fact that the compressed representation is almost half the size of the original sequence suggests that the sequence has many such stretches, allowing RLE to achieve meaningful compression.
+
+    3. Random DNA Sequence Compression
+    To compare the compression effectiveness with a random DNA sequence, we would expect the results to be different. A random sequence, with no repeating patterns or predictable structure, would have fewer stretches of consecutive identical bases. As a result, RLE compression would likely be much less effective for the random sequence.
+    The compression ratio for a random sequence could be closer to 1:1 (or even result in no compression at all), as most of the characters in the sequence would not repeat enough to benefit from the RLE algorithm. Therefore, the RLE representation of a random sequence would be nearly the same length as the original sequence, if not longer in some cases.
+
+
+PART 3:
+
+    gafur@gafur-HP-Spectre-x360-Convertible-13-ap0xxx:~/Documents/computational_biology/hw5$ python part3.py chrY_subset.fa 
+    Length of input sequence: 7920
+
+    --- LINEAR SEARCH ---
+    [Linear Search] Total unique 5-mers: 1172
+    [Linear Search] Execution time: 0.0333 seconds
+
+    --- BWT SEARCH ---
+    [BWT Search] Total unique 5-mers: 1172
+    [BWT Search] Execution time: 0.0686 seconds
+
+    
+
+    In this section, I compared the performance of linear search and BWT-based search to count the occurrences of all unique 5-mers in a segment of the human Y chromosome sequence. The total number of unique 5-mers found in the sequence was 1,172.
+    Using the linear search method, it took 0.0333 seconds to count all 5-mers. In contrast, the BWT-based search took 0.0686 seconds for the same task. While BWT search is known for its efficiency when searching for multiple patterns in large datasets, in this case—on a relatively small sequence of 7,920 bases—linear search performed better in terms of execution time.
+    This suggests that for small sequences or a small number of search patterns, linear search may be more efficient due to its lower overhead. However, BWT search is expected to outperform linear methods as the sequence size or number of patterns increases.
+    Recommendation: For small datasets, linear search is faster and easier to implement. For large-scale searches or genomic-scale sequences, BWT search becomes more advantageous due to its scalability and efficiency with repeated pattern matching.
